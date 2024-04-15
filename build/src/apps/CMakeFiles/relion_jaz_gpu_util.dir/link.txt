@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/librelion_jaz_gpu_util.a CMakeFiles/relion_jaz_gpu_util.dir/__/jaz/cuda/relion_jaz_gpu_util_generated_test00.cu.o
+/usr/bin/ranlib ../../lib/librelion_jaz_gpu_util.a

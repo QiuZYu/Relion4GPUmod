@@ -1,0 +1,32 @@
+Determining if the __sincos exist failed with the following output:
+Change Dir: /scratch/others/relion/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a4eb3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a4eb3.dir/build.make CMakeFiles/cmTC_a4eb3.dir/build
+gmake[1]: 进入目录“/scratch/others/relion/build/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_a4eb3.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -o CMakeFiles/cmTC_a4eb3.dir/CheckSymbolExists.cxx.o -c /scratch/others/relion/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_a4eb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4eb3.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_a4eb3.dir/CheckSymbolExists.cxx.o -o cmTC_a4eb3 
+/usr/bin/ld: CMakeFiles/cmTC_a4eb3.dir/CheckSymbolExists.cxx.o: in function `main':
+CheckSymbolExists.cxx:(.text+0x1f): undefined reference to `__sincos'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_a4eb3.dir/build.make:99：cmTC_a4eb3] 错误 1
+gmake[1]: 离开目录“/scratch/others/relion/build/CMakeFiles/CMakeTmp”
+gmake: *** [Makefile:127：cmTC_a4eb3/fast] 错误 2
+
+
+File /scratch/others/relion/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __sincos
+  return ((int*)(&__sincos))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

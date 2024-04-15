@@ -1,0 +1,1 @@
+cmd='<SOURCE_DIR>/configure;--enable-shared;--prefix=/scratch/others/relion/external/fltk'

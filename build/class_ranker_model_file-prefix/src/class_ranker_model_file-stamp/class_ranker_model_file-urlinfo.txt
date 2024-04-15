@@ -1,0 +1,3 @@
+repository='external project URL'
+module='ftp://ftp.mrc-lmb.cam.ac.uk/pub/dari/class_ranker_0.1.3_torch_1.0.1.pt.tar.gz'
+tag='MD5=b39f0cbc31f510e3a03e89f1e11110fe'

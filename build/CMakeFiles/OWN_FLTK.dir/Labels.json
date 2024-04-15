@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/scratch/others/relion/build/CMakeFiles/OWN_FLTK"
+		},
+		{
+			"file" : "/scratch/others/relion/build/CMakeFiles/OWN_FLTK.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/CMakeFiles/OWN_FLTK-complete.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/OWN_FLTK-prefix/src/OWN_FLTK-stamp/OWN_FLTK-build.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/OWN_FLTK-prefix/src/OWN_FLTK-stamp/OWN_FLTK-configure.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/OWN_FLTK-prefix/src/OWN_FLTK-stamp/OWN_FLTK-download.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/OWN_FLTK-prefix/src/OWN_FLTK-stamp/OWN_FLTK-install.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/OWN_FLTK-prefix/src/OWN_FLTK-stamp/OWN_FLTK-mkdir.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/OWN_FLTK-prefix/src/OWN_FLTK-stamp/OWN_FLTK-patch.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/OWN_FLTK-prefix/src/OWN_FLTK-stamp/OWN_FLTK-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"OWN_FLTK"
+		],
+		"name" : "OWN_FLTK"
+	}
+}

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/scratch/others/relion/build/CMakeFiles/class_ranker_model_file"
+		},
+		{
+			"file" : "/scratch/others/relion/build/CMakeFiles/class_ranker_model_file.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/CMakeFiles/class_ranker_model_file-complete.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/class_ranker_model_file-prefix/src/class_ranker_model_file-stamp/class_ranker_model_file-build.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/class_ranker_model_file-prefix/src/class_ranker_model_file-stamp/class_ranker_model_file-configure.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/class_ranker_model_file-prefix/src/class_ranker_model_file-stamp/class_ranker_model_file-download.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/class_ranker_model_file-prefix/src/class_ranker_model_file-stamp/class_ranker_model_file-install.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/class_ranker_model_file-prefix/src/class_ranker_model_file-stamp/class_ranker_model_file-mkdir.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/class_ranker_model_file-prefix/src/class_ranker_model_file-stamp/class_ranker_model_file-patch.rule"
+		},
+		{
+			"file" : "/scratch/others/relion/build/class_ranker_model_file-prefix/src/class_ranker_model_file-stamp/class_ranker_model_file-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"class_ranker_model_file"
+		],
+		"name" : "class_ranker_model_file"
+	}
+}
